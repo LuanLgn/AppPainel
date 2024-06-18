@@ -64,402 +64,408 @@ Dashboard{
 }
 
 Operadores {
-Geral {
-Nome – Sobrenome
-Email
-Telefone – Celular
-Ramal – SMS
-}
-Licença {
-Operador
-Fornecedor
-RCS
-Conversas
-Chat
-Whatsapp
-Telegram
-Teams
-Mapa de Atendimento
-}
+    Geral {
+        Nome – Sobrenome
+        Email
+        Telefone – Celular
+        Ramal – SMS
+    }
+    
+    Licença {
+        Operador
+        Fornecedor
+        RCS
+        Conversas
+        Chat
+        Whatsapp
+        Telegram
+        Teams
+        Mapa de Atendimento
+    }
 
-Acesso ao Sistema {
-Login
-Senha – Confirmar senha
-Autenticação
-Forçar a Mudança de Senha – primeiro acesso vai ser forçado a trocar a senha
-Enviar Boas Vindas
-Administrador – hierarquia é adm, gerente, operador comum (Adm criar operador em qualquer time - gerente somente no seu grupo principal)
-Gerente do Sistema – pode mudar somente ao seu próprio grupo
-Liberação de Acesso por IP
-Liberação de Acesso por IP do Cliente
-Logar com Google Account
-Logar com Microsoft Account
-Habilitar Acesso ao Sistema – quando o operador entrar de férias, licença maternidade
-}
+    Acesso ao Sistema {
+        Login
+        Senha – Confirmar senha
+        Autenticação
+        Forçar a Mudança de Senha – primeiro acesso vai ser forçado a trocar a senha
+        Envio de Boas-Vindas
+        Administrador – hierarquia é adm, gerente, operador comum (Adm criar operador em qualquer time - gerente somente no seu grupo principal)
+        Gerente do Sistema – pode mudar somente ao seu próprio grupo
+        Liberação de Acesso por IP
+        Liberação de Acesso por IP do Cliente
+        Logar com Google Account
+        Logar com Microsoft Account
+        Habilitar Acesso ao Sistema – quando o operador entrar de férias, licença maternidade
+    }
 
-Grupo de Atendimento {
-Guia Principal
-Grupos Adicionais
-Ao Atualizar o Perfil Atualizar também este Operador
-Habilitar visualização de todos os Chamados de seus Grupos de Atendimento
-Habilitar visualização de Chamados apenas do próprio Operador e da Fila
-Enviar todas as Notificações de Chamados para o Email do Grupo de Atendimento
-Receber chamados distribuídos pelo grupo principal?
-}
-Perfil {
-Associado ao Perfil
-Ao atualizar o perfil, atualizar também este operador
-}
-Dados Pessoais {
-Perfil Profissional {
-Admissão – visível
-Valor hora – hora/mês – fazer hora extra
-Chamados por mês
-Cargo – ao editar o perfil atualize o operador
-Função – ao editar o perfil atualize o operador
-}
-Superior {
-Operadores – ao editar o perfil atualize o operador
-}
-Competencia {
-Competencias
-}
-Especialidade {
-Categorias – Para a distribuição de chamados, aqui que identifica quais as especialidades
-}
-Atendimento ao cliente {
-Clientes – Preferencia do cliente ao operador
-}
-Atendimento a grupo de empresas {
-Grupo de empresas – Preferencia do grupo de clientes ao operador
-}
+    Grupo de Atendimento {
+        Guia Principal
+        Grupos Adicionais
+        Ao Atualizar o Perfil Atualizar também este Operador
+        Habilitar visualização de todos os Chamados de seus Grupos de Atendimento
+        Habilitar visualização de Chamados apenas do próprio Operador e da Fila
+        Enviar todas as Notificações de Chamados para o Email do Grupo de Atendimento
+        Receber chamados distribuídos pelo grupo principal?
+    }
 
-PS:Esses 3 detalhes se somam, se a categorias, o cliente e o grupo de empresas bater 3 todos requisitos, esse operador que vai ser chamado
+    Perfil {
+        Associado ao Perfil
+        Ao atualizar o perfil, atualizar também este operador
+    }
 
-Dados Pessoais {
-Data nasc
-Sexo
-Fumante
-Estado civil
-Habilitação
-Telefone 1 telefone 2
-Celular 1 celular 2
-Skype
-Email 1 email 2 email 3
-Cep
-Endereço
-Numero
+    Dados Pessoais {
+        Perfil Profissional {
+            Admissão – visível
+            Valor hora – hora/mês – fazer hora extra
+            Chamados por mês
+            Cargo – ao editar o perfil atualize o operador
+            Função – ao editar o perfil atualize o operador
+        }
+        
+        Superior {
+            Operadores – ao editar o perfil atualize o operador
+        }
+        
+        Competencia {
+            Competencias
+        }
+        
+        Especialidade {
+            Categorias – Para a distribuição de chamados, aqui que identifica quais as especialidades
+        }
+        
+        Atendimento ao cliente {
+            Clientes – Preferencia do cliente ao operador
+        }
+        
+        Atendimento a grupo de empresas {
+            Grupo de empresas – Preferencia do grupo de clientes ao operador
+        }
 
-Redes sociais {
-Facebook
-Twitter
-Linkedin
-MySpace
-Tumblr
-}
-}
-}
+        PS:Esses 3 detalhes se somam, se a categorias, o cliente e o grupo de empresas bater 3 todos requisitos, esse operador que vai ser chamado
 
+        Dados Pessoais {
+            Data nasc
+            Sexo
+            Fumante
+            Estado civil
+            Habilitação
+            Telefone 1 telefone 2
+            Celular 1 celular 2
+            Skype
+            Email 1 email 2 email 3
+            Cep
+            Endereço
+            Numero
+
+            Redes sociais {
+                Facebook
+                Twitter
+                Linkedin
+                MySpace
+                Tumblr
+            }
+        }
+    }
+}
 
 Regras de Restrição {
-Permissão a transferir para grupos {
-Se deixar os campos em brancos, siginifica que nao tem nenhuma regra imposta
-Permitir – o operador só vai ter permissão para transferir somente para outros setores
-Restringir -  o operador não vai ter a permissão para transferir para esses setorews
-}
+    Permissão a transferir para grupos {
+        Se deixar os campos em brancos, siginifica que nao tem nenhuma regra imposta
+        Permitir – o operador só vai ter permissão para transferir somente para outros setores
+        Restringir -  o operador não vai ter a permissão para transferir para esses setores
+    }
 
-Limitar chamados e informações de clientes{
-Se uma empresa tem varias filiais, determinado operador irá ver somente determinadas filiais, na lista e informações
-Permitir
-Restringir
-}
+    Limitar chamados e informações de clientes{
+        Se uma empresa tem varias filiais, determinado operador irá ver somente determinadas filiais, na lista e informações
+        Permitir
+        Restringir
+    }
 
-Limitar chamados e informações de grupos de empresas {
-Se uma empresa tem vários grupos de empresa, determinado operador vai ver somente determinados grupos de empresas
-Permitir
-Restringir
-}
+    Limitar chamados e informações de grupos de empresas {
+        Se uma empresa tem vários grupos de empresa, determinado operador vai ver somente determinados grupos de empresas
+        Permitir
+        Restringir
+    }
 
-Liberação de Acesso pelo IP da Empresa{
-Bloqueando os ips que o operador não pode se conectar
-Bloqueio
-}
+    Liberação de Acesso pelo IP da Empresa{
+        Bloqueando os ips que o operador não pode se conectar
+        Bloqueio
+    }
 }
 
 Horários de acesso {
-Dentro desses horários os operadores vão ficar bloqueados
-Hora/dia seg ter qua qui sex sab dom
+    Dentro desses horários os operadores vão ficar bloqueados
+    Hora/dia seg ter qua qui sex sab dom
 }
 
 Assinatura {
-Linha de assinatura exclusiva para o operador
-Pode colocar a assinatura do google 
+    Linha de assinatura exclusiva para o operador
+    Pode colocar a assinatura do google 
 }
 
 Campos padrões para abertura de chamados{
-Especificar a categorização do chamado de um operador, exemplo, se esse operador so trabalha com trabalhos de alto risco, todos os impactos serão alta e urgência alta
-Solicitação
-Tipo de ocorrência
-Impacto – urgência
-Categoria
-Tipo
+    Especificar a categorização do chamado de um operador, exemplo, se esse operador so trabalha com trabalhos de alto risco, todos os impactos serão alta e urgência alta
+    Solicitação
+    Tipo de ocorrência
+    Impacto – urgência
+    Categoria
+    Tipo
 
-Campo padrão para interação de chamados {
-Atribuir padrão para forma de atendimento e causa
-}
+    Campo padrão para interação de chamados {
+        Atribuir padrão para forma de atendimento e causa
+    }
 }
 
 API{
-Chave de API do operador
-Chave de API do ambiente
+    Chave de API do operador
+    Chave de API do ambiente
 }
 
 Log de Acesso e Log {
-Log de Acesso – Toda vez que o operador acessou ou tentou acessar a plataforma
-Log – Log de cada ação que alguém fez dentro das informações daquele operador
+    Log de Acesso – Toda vez que o operador acessou ou tentou acessar a plataforma
+    Log – Log de cada ação que alguém fez dentro das informações daquele operador
 }
 
 Exportar-XSL
 Importar-XSL (Recomendado planilha modelo)
-
 }
 
 Gerente Operador {
-Gerente principal de um grupo, exemplo o gerente de suporte N2, fica limitado aos operadores do seu grupo
+    Gerente principal de um grupo, exemplo o gerente de suporte N2, fica limitado aos operadores do seu grupo
 
-Mouse direito no gerente operador – desativar, excluir, atualizar
-Exportar-XSL
-Importar-XSL (Recomendado planilha modelo)
+    Mouse direito no gerente operador – desativar, excluir, atualizar
+    Exportar-XSL
+    Importar-XSL (Recomendado planilha modelo)
 
-Criar Gerente Operador {
-Geral {
-Nome – Sobrenome
-Email
-Telefone Celular
-Ramal SMS
-}
-Licença{
-Operador
-Fornecedor
-RCS
-Conversas
-Chat
-Whatsapp
-Telegram
-Teams
-}	
+    Criar Gerente Operador {
+        Geral {
+            Nome – Sobrenome
+            Email
+            Telefone Celular
+            Ramal SMS
+        }
+        
+        Licença{
+            Operador
+            Fornecedor
+            RCS
+            Conversas
+            Chat
+            Whatsapp
+            Telegram
+            Teams
+        }	
+        
+        Acesso ao Sistema {
+            Login
+            Senha – Confirmar senha
+            Forçar mudança de senhas
+            Enviar boas vindas
+        }
 
-Acesso ao Sistema {
-Login
-Senha – Confirmar senha
-Forçar mudança de senhas
-Enviar boas vindas
-}
+        Perfil {
+            Associado ao perfil – Se eu não tenho acesso a tal app, meus operadores também não vao ter
+        }
+    }
 
-Perfil {
-Associado ao perfil – Se eu não tenho acesso a tal app, meus operadores também não vao ter
+    Dados pessoais {
+        Perfil profissional – admissão
+        Competencia
+        Especialidade – Categorias
+        Atendimento ao Cliente
+        Atendimento a Grupos de empresas
+        
+        Dados pessoais {
+            Data Nasc
+            Sexo
+            Fumante
+            Estado civil
+            Habilitação
+            Telefone 1 2 3 
+            Celular 1 2 
+            Skype
+            Email 1 2 3
+            Cep
+            Endereço
+            Numero
 
-}
-}
-Dados pessoais {
-Perfil profissional – admissão
-Competencia
-Especialidade – Categorias
-Atendimento ao Cliente
-Atendimento a Grupos de empresas
-Dados pessoais {
-Data Nasc
-Sexo
-Fumante
-Estado civil
-Habilitação
-Telefone 1 2 3 
-Celular 1 2 
-Skype
-Email 1 2 3
-Cep
-Endereço
-Numero
-
-Rede social {
-Facebook
-Twitter
-Linkedin
-MySpace
-Tumblr
-}
-}
-}
+            Rede social {
+                Facebook
+                Twitter
+                Linkedin
+                MySpace
+                Tumblr
+            }
+        }
+    }
 }
 
 Perfil de Operador {
-Padronizar os acessos as permissões, através de grupos hierárquicos de operadores
-Clicar em + - consegue ver qual o nome dos operadores pertence aqueles grupos de operadores
-Exportar - XSL
-Importar – XSL (Recomendável que tenha a planilha modelo)
+    Padronizar os acessos as permissões, através de grupos hierárquicos de operadores
+    Clicar em + - consegue ver qual o nome dos operadores pertence aqueles grupos de operadores
+    Exportar - XSL
+    Importar – XSL (Recomendável que tenha a planilha modelo)
 
-Criar Perfil de Operador {
-Aqui você configura no macro, por grupo, os operadores vão herdar, estará personalizando tudo
-Horas por Mês
-Chamados por Mês
-Cargo - Ao Editar o Perfil Atualize o Operador (Automaticamente amarra para o operador, passa dinamicamente para o operador)
-Função - Ao Editar o Perfil Atualize o Operador (Automaticamente amarra para o operador, passa dinamicamente para o operador)
+    Criar Perfil de Operador {
+        Aqui você configura no macro, por grupo, os operadores vão herdar, estará personalizando tudo
+        Horas por Mês
+        Chamados por Mês
+        Cargo - Ao Editar o Perfil Atualize o Operador (Automaticamente amarra para o operador, passa dinamicamente para o operador)
+        Função - Ao Editar o Perfil Atualize o Operador (Automaticamente amarra para o operador, passa dinamicamente para o operador)
 
-Superior – Operadores
-Especialidade – Categorias
-Atendimento a Grupos de Empresas – Grupo e Empresas
-}
+        Superior – Operadores
+        Especialidade – Categorias
+        Atendimento a Grupos de Empresas – Grupo e Empresas
+    }
 }
 
 Regra de Restrição {
-Limitar a visualização de operadores por perfis de operadores (Permitir e Restringir)
-Permissão a Transferir para Grupos (Permitir e Restringir)
-Limitar Chamados e informações de Clientes (Permitir e Restringir) 
-Limitar Chamados e informações de Grupos de Empresas (Permitir e Restringir)
-Liberação de Acesso pelo IP da Empresa (Permitir e Restringir)
+    Limitar a visualização de operadores por perfis de operadores (Permitir e Restringir)
+    Permissão a Transferir para Grupos (Permitir e Restringir)
+    Limitar Chamados e informações de Clientes (Permitir e Restringir) 
+    Limitar Chamados e informações de Grupos de Empresas (Permitir e Restringir)
+    Liberação de Acesso pelo IP da Empresa (Permitir e Restringir)
 }
 
 Horários de acesso {
-Dentro desses horários os operadores vão ficar bloqueados
-Hora/dia seg ter qua qui sex sab dom
+    Dentro desses horários os operadores vão ficar bloqueados
+    Hora/dia seg ter qua qui sex sab dom
 }
 
 Assinatura {
-Linha de assinatura exclusiva para o operador
-Pode colocar a assinatura do google 
+    Linha de assinatura exclusiva para o operador
+    Pode colocar a assinatura do google 
 }
 
 Operadores{
-Qual operador vai ser associado a esse grupo de operadores
-Nome:
+    Qual operador vai ser associado a esse grupo de operadores
+    Nome:
 }
 
-Campos Padroes para Abertura de Chamados {
-Ocultar algo tipo de padrão para abertura de chamados, sendo – Solicitação, Tipo de Ocorrencia, Impacto – Urgencia, Categoria, Tipo
+Campos Padrões para Abertura de Chamados {
+    Ocultar algo tipo de padrão para abertura de chamados, sendo – Solicitação, Tipo de Ocorrencia, Impacto – Urgencia, Categoria, Tipo
 }
+
 Campo padrão para interação de chamados {
-Já padroniza a forma de atendimento e causa
+    Já padroniza a forma de atendimento e causa
 }
+
 Log {
-Ultimas alterações feitas no registro
-}
+    Últimas alterações feitas no registro
 }
 
 Slide Show {
-Configurar o play do slide show
-Criar slide show {
-Nome 
-Permissões – Grupo Principal, Operadores
-}
-Adicionar configurações {
-Tipo
-Ordem
-Top
-Duração – em segundos
+    Configurar o play do slide show
+    Criar slide show {
+        Nome 
+        Permissões – Grupo Principal, Operadores
+    }
+    Adicionar configurações {
+        Tipo
+        Ordem
+        Top
+        Duração – em segundos
+    }
+    Pode ativar e desativar os slide show
 
-}
-Pode ativar e desativar os slide show
+    Menu – Funções, Cargos, Competências, Estado Civil e Habilitação {
+        Dados informativos que não interferem diretamente ao sistema
+        Todos esses menus têm
+        Botão de atualizar
+        Listagem de registros
+        Botão de pesquisar
+        Botão de filtrar em ativos, não ativos
+        Exportar e importar – XSL (excel)
+        PS: Importante ter a planilha de modelo - recomendável
 
-Menu – Funções,Cargos, Competências, Estado Cívil e Habilitação{
-Dados informativos que não interferem diretamente ao sistema
-Todos essaes menus tem
-Botão de atualizar
-Listagem de registros
-Botão de pesquisar
-Botão de filtrar em ativos, não ativos
-Exportar e importar – XSL (excel)
-PS:Importante ter a planilha de modelo - recomendavel
+        Modal de criação de algum de menus {
+            Nome
+            Botão de continuar criando
+            Salvar
+        }
 
-Modal de criação de algum de menus {
-Nome
-Botão de continuar criando
-Salvar
-}
-
-Ao clicar do lado direito de um nome: Desativar, atualizar, excluir
-Log de registros
-}
-
-
+        Ao clicar do lado direito de um nome: Desativar, atualizar, excluir
+        Log de registros
+    }
 }
 
 Configurações {
-Sistema {
-Geral {
-Titulo do Sistema
-Titulo do Portal – necessário que seja 143x46 pixels em formato de .gif 
-}
-Avançado {
-Solicitante - Permite que o Solicitante possa interagir em qualquer chamado por e-mail, desde que ele tenha colocado o número do chamado no Assunto, independente do chamado estar aberto em nome da empresa principal dele ou não.
-Operadores - Envia alerta para os emails acima se o Operador finalizar mais do que X Chamados que no Mês corrente
-}
-Portal do operador {
-Limitar a visualização das listas pelo Idioma do Operador
-Dica: Essa permissão, quando desativada , sempre mostrará as listas em Português.
-Agora, quando ela estiver ativa e as listas têm traduções cadastradas, elas serão exibidas no idioma do Operador.
-}
-Horas de Inatividade {
-Desloga da Interface os Operadores/Solicitantes que estiverem acima da hora mencionada!
-*Considera o tempo de uma aba do navegador fechada!
-}
+    Sistema {
+        Geral {
+            Título do Sistema
+            Título do Portal – necessário que seja 143x46 pixels em formato de .gif 
+        }
+        Avançado {
+            Solicitante - Permite que o Solicitante possa interagir em qualquer chamado por e-mail, desde que ele tenha colocado o número do chamado no Assunto, independente do chamado estar aberto em nome da empresa principal dele ou não.
+            Operadores - Envia alerta para os emails acima se o Operador finalizar mais do que X Chamados que no Mês corrente
+        }
+        Portal do operador {
+            Limitar a visualização das listas pelo Idioma do Operador
+            Dica: Essa permissão, quando desativada, sempre mostrará as listas em Português.
+            Agora, quando ela estiver ativa e as listas têm traduções cadastradas, elas serão exibidas no idioma do Operador.
+        }
+        Horas de Inatividade {
+            Desloga da Interface os Operadores/Solicitantes que estiverem acima da hora mencionada!
+            *Considera o tempo de uma aba do navegador fechada!
+        }
+    }
 
-Politica de senhas {
-Operadores{
-Quantidade mínima de Caracteres
-Exigir pelo menos  1 letra(s) maiúscula(s). 
-Exigir pelo menos  1 número(s).
-Exigir pelo menos  1 caractere(s) especial(is).
-Bloquear Repetição de Senhas. 
-Forçar Mudança de Senhas – por dias
-}
-Solicitantes {
-Quantidade mínima de Caracteres
-Exigir pelo menos 1 letra(s) maiúscula(s).
-Exigir pelo menos 1 número(s).
-Exigir pelo menos 1 caractere(s) especial(is).
-Bloquear Repetição de Senhas – impede do operador de repetir as 12 ultimas senhas
-Forçar Mudança de Senhas – por dias
-}
-} 
+    Política de senhas {
+        Operadores {
+            Quantidade mínima de Caracteres
+            Exigir pelo menos 1 letra(s) maiúscula(s). 
+            Exigir pelo menos 1 número(s).
+            Exigir pelo menos 1 caractere(s) especial(is).
+            Bloquear Repetição de Senhas. 
+            Forçar Mudança de Senhas – por dias
+        }
+        Solicitantes {
+            Quantidade mínima de Caracteres
+            Exigir pelo menos 1 letra(s) maiúscula(s).
+            Exigir pelo menos 1 número(s).
+            Exigir pelo menos 1 caractere(s) especial(is).
+            Bloquear Repetição de Senhas – impede do operador de repetir as 12 últimas senhas
+            Forçar Mudança de Senhas – por dias
+        }
+    } 
 
-Bloquear extensão de arquivos {
-Extensão;
-}
+    Bloquear extensão de arquivos {
+        Extensão;
+    }
 }
 
 Campos extras {
-Detalhes importantes que permite colocar informaçoes adicionais em formulários específicos, para que deixe mais assertivo o resultado
+    Detalhes importantes que permite colocar informações adicionais em formulários específicos, para que deixe mais assertivo o resultado
 
-Criar Campos Extras {
-Nome – Obrigatorio Sim/Não
-Label (Opcional)
-Label de Explicação (Opcional) - solicitante
-Máscara (Opcional)- Exemplos (
-Tipo	Descrição
-[calendar]	Icone de Calendário
-[number]	Somente Número
-[number][0-10]	Somente Número de 0 a 10
-[text]	Somente Texto
-[text][3-5]	Somente Texto entre 3 a 5 caracteres
-[textarea]	Textarea
-0000-0000	Telefone
-(00) 0000-0000	Telefone
-000.000.000.000	IP
-00/00/0000	Data
-00:00:00	Hora
-##0,00%	Percentual
-#.##0,00	R$
-)
-Lista – Multiplica Sim/Não
-Tipo 
-Exibir no grid de chamados na ordem
-Permissão a grupo – Container (Ao marcar  campo extra como container ele não poderá ser utilizado como condição)
-Avançado  - Não Exibir este Campo Extra na Pesquisa Avançada de Chamados/GMUDs (Para melhor performance no grid de Chamados/GMUDs marque este opção!)
-}
+    Criar Campos Extras {
+        Nome – Obrigatório Sim/Não
+        Label (Opcional)
+        Label de Explicação (Opcional) - solicitante
+        Máscara (Opcional) - Exemplos (
+            Tipo    Descrição
+            [calendar]    Ícone de Calendário
+            [number]    Somente Número
+            [number][0-10]    Somente Número de 0 a 10
+            [text]    Somente Texto
+            [text][3-5]    Somente Texto entre 3 a 5 caracteres
+            [textarea]    Textarea
+            0000-0000    Telefone
+            (00) 0000-0000    Telefone
+            000.000.000.000    IP
+            00/00/0000    Data
+            00:00:00    Hora
+            ##0,00%    Percentual
+            #.##0,00    R$
+        )
+        Lista – Multiplica Sim/Não
+        Tipo 
+        Exibir no grid de chamados na ordem
+        Permissão a grupo – Container (Ao marcar campo extra como container ele não poderá ser utilizado como condição)
+        Avançado  - Não Exibir este Campo Extra na Pesquisa Avançada de Chamados/GMUDs (Para melhor performance no grid de Chamados/GMUDs marque este opção!)
+    }
 
-Icon de casinha – Mostrar o campo extra para o solicitante
-Mouse direito no campo extra – Atualizar, Excluir
-Importar e Exportar – XSL (Excel)
-}
-
+    Icon de casinha – Mostrar o campo extra para o solicitante
+    Mouse direito no campo extra – Atualizar, Excluir
+    Importar e Exportar – XSL (Excel)
 }
